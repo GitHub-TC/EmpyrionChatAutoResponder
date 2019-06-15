@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EmpyrionChatAutoresponder")]
+[assembly: AssemblyTitle("EmpyrionChatAutoResponder")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EmpyrionChatAutoresponder")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCompany("ASTIC/TC")]
+[assembly: AssemblyProduct("EmpyrionChatAutoResponder")]
+[assembly: AssemblyCopyright("Copyright © 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c73c3d15-a8d3-4818-8862-de72e6f770a5")]
+[assembly: Guid("7c5b0b01-0906-4bb2-894f-720c61942f78")]
 
 // Version information for an assembly consists of the following four values:
 //
