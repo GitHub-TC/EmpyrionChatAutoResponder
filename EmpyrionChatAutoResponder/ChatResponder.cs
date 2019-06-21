@@ -50,7 +50,7 @@ namespace EmpyrionChatAutoResponder
             if (response == null) response = Configuration.Current.ChatCommand.FirstOrDefault(C => chatinfo.msg.StartsWith(C.Key)).Value;
             if (string.IsNullOrEmpty(response)) return;
 
-            await Request_ShowDialog_SinglePlayer(10 * 60000, new DialogBoxData() {
+            await Request_ShowDialog_SinglePlayer(Timeouts.NoResponse, new DialogBoxData() {
                 Id              = chatinfo.playerId,
                 MsgText         = response,
                 PosButtonText   = "ok"
