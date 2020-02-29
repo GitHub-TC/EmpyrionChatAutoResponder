@@ -22,7 +22,7 @@ namespace EmpyrionChatAutoResponder
             DediAPI = dediAPI;
             LogLevel = LogLevel.Message;
 
-            log($"**EmpyrionChatAutoResponder: loaded");
+            Log($"**EmpyrionChatAutoResponder: loaded");
 
             LoadConfiguration();
             LogLevel = Configuration.Current.LogLevel;
